@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuid_Cart"
+        android:title="Menu"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        app:showAsAction = "always" />
+    <item android:id="@+id/Cart"
+        android:title="Cart"
+        android:icon="@drawable/ic_card_giftcard_black_24dp"
+        app:showAsAction = "always" />
+    <item android:id="@+id/Mobile"
+        android:title="Mobile"
+        app:showAsAction = "never" />
+    <item android:id="@+id/Electronics"
+        android:title="Electronics"
+        app:showAsAction = "never" />
+
+    <item android:id="@+id/Home_Appliance"
+        android:title="Home Appliance"
+        app:showAsAction = "never" />
+
+    <item android:id="@+id/jewelry"
+        android:title="Jewelry"
+        app:showAsAction = "never" />
+
+    <item android:id="@+id/Clothing"
+        android:title="clothing"
+        app:showAsAction = "never" />
+    <item android:id="@+id/shoes"
+        android:title="shoes"
+        app:showAsAction = "never" />
+
+
+
+
+</menu>

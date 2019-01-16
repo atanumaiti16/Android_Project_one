@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorBlue"
+    tools:context=".LoginRegistration.MainActivity">
+
+    <EditText
+        android:id="@+id/et_mobile_S"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="41dp"
+        android:background="@color/ColorGray"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="enter mobile no"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_password_S"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_password_S"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="58dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:background="@color/ColorGray"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sign_in_s"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_mobile_S" />
+
+    <Button
+        android:id="@+id/btn_sign_in_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="208dp"
+        android:text="Sign in"
+        android:background="@color/ColorGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_register_s"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_S" />
+
+    <Button
+        android:id="@+id/btn_register_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:text="Register"
+        android:background="@color/ColorGray"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_sign_in_s"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sign_in_s"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
